@@ -6,11 +6,8 @@ Important tutorials
 
 ssh-keygen -t rsa -b 4096 -C "email@gmail.com"
 
-## Step 2: Enter the passphrase
 
-If you don’t want to add it just proceed to the next step by pressing Enter twice.
-
-## Step 3: Adding your SSH key to ssh-agent
+## Step 2: Adding your SSH key to ssh-agent
 
 eval "$(ssh-agent -s)"
 

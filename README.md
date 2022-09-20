@@ -7,14 +7,8 @@ Important tutorials
 ssh-keygen -t rsa -b 4096 -C "email@gmail.com"
 
 
-## Step 2: Adding your SSH key to ssh-agent
 
-eval "$(ssh-agent -s)"
-
-ssh-add ~/.ssh/id_rsa
-
-
-## Step 4: Add your key to GitHub
+## Step 2: Add your key to GitHub
 
 In order to get our key, use the following command
 
